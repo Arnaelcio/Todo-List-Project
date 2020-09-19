@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Minha Lista de Tarefas</h1>
+      <p id="funcionamento">
+        Clique duas vezes em um item para marcá-lo como completo
+      </p>
+    </header>
+    <div class="input-area">
+      <input
+        type="text"
+        name="texto-tarefa"
+        id="texto-tarefa"
+        placeholder="Insira a tarefa a ser adicionada"
+        class="texto-tarefa"
+      />
+      <a id="criar-tarefa" class="criar-tarefa">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Add Task
+      </a>
+    </div>
+    <div class="div-list">
+      <ol id="lista-tarefas" class="lista-tarefas"></ol>
+    </div>
+    <div class="div-buttons">
+      <a id="apaga-tudo" class="apaga-tudo" >
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Clear All
+      </a>
+      <a id="remover-finalizados" class="remover-finalizados">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Remove Done
+      </a>
+      <a id="remover-selecionado" class="remover-selecionado" >
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Remove Selected
+      </a>
+      <a id="mover-cima" class="mover-cima">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Move To Up
+      </a>
+      <a id="mover-baixo" class="mover-baixo">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Move To Down
+      </a>
+      <a id="salvar-tarefas" class="salvar-tarefas" >
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Save Tasks
+      </a>
+      <!-- <a href="#"id="salvar-tarefas">
+        <svg class="svg" ><rect class="rect">
+        </rect>
+        </svg>
+        salvar tarefas
+     </a> -->
+    </div>
+    <!-- <button id="apaga-tudo" class="bottom-buttons" >apaga-tudo</button> -->
+    <!-- <button id="remover-finalizados" class="bottom-buttons" >remover-finalizados</button> -->
+
+    <!-- <button id="remover-selecionado" class="bottom-buttons" >remover-selecionado</button>
+    <button id="salvar-tarefas" class="bottom-buttons" >salvar-tarefas</button> -->
+
+    <script src="./script.js"></script>
+  </body>
+</html>
